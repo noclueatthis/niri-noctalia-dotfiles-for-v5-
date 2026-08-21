@@ -11,8 +11,8 @@ A clean, modern Wayland desktop setup using Niri and Noctalia Shell.
 
 | | |
 | :---: | :---: |
-| ![Screenshot 1](pictures/screenshots/screenshot1.png) | ![Screenshot 2](pictures/screenshots/screenshot2.png) |
-| ![Screenshot 3](pictures/screenshots/screenshot3.png) | ![Screenshot 4](pictures/screenshots/screenshot4.png) |
+| ![Screenshot 1](Pictures/Screenshots/screenshot1.png) | ![Screenshot 2](Pictures/Screenshots/screenshot2.png) |
+| ![Screenshot 3](Pictures/Screenshots/screenshot3.png) | ![Screenshot 4](Pictures/Screenshots/screenshot4.png) |
 
 
 
