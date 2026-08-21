@@ -2,18 +2,12 @@
 A clean, modern Wayland desktop setup using Niri and Noctalia Shell.
 
 
-## Previews 
 
 ## Previews
-
-
-## Previews
-<img width="1920" height="1024" alt="screenshot4" src="https://github.com/user-attachments/assets/9436ffed-f56c-436e-abf9-ebbbec6aa809" />
-<img width="1920" height="1080" alt="screenshot3" src="https://github.com/user-attachments/assets/905448b3-46ec-478b-b1be-a70b3f34311f" />
-<img width="1916" height="1080" alt="screenshot2" src="https://github.com/user-attachments/assets/86f036c0-0c23-458a-8f7b-bc8cf8b4cdf5" />
 <img width="1920" height="1080" alt="screenshot1" src="https://github.com/user-attachments/assets/0cb82fb3-5293-4fc8-9e47-2f5288c9698c" />
-
-
+<img width="1916" height="1080" alt="screenshot2" src="https://github.com/user-attachments/assets/86f036c0-0c23-458a-8f7b-bc8cf8b4cdf5" />
+<img width="1920" height="1080" alt="screenshot3" src="https://github.com/user-attachments/assets/905448b3-46ec-478b-b1be-a70b3f34311f" />
+<img width="1920" height="1024" alt="screenshot4" src="https://github.com/user-attachments/assets/9436ffed-f56c-436e-abf9-ebbbec6aa809" />
 
 
 ### Required Applications & Dependencies 
