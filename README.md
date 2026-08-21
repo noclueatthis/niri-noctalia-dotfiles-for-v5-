@@ -1,10 +1,9 @@
-🛠️ Noctalia & Niri DotfilesA clean, modern Wayland desktop setup using Niri and Noctalia Shell.
+🛠️ Noctalia & Niri Dotfiles
+A clean, modern Wayland desktop setup using Niri and Noctalia Shell.
 
 
 
 🎨 ScreenshotsDesktopLockscreen  
-
-
 
 
 
@@ -21,15 +20,13 @@ A Nerd Font (e.g., ttf-nerd-fonts-symbols or JetBrainsMono Nerd Font for icons)
 
 
 
-🚀 Installation Guide1. Clone the RepositoryCode snippetgit clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git ~/dotfiles
+🚀 Installation Guide
+1. Clone the Repository git clone https://github.com/noclueatthis/niri-noctalia-dotfiles-for-v5-git ~/dotfiles
 
 
 
-
-
-
-
-2. Copy Configurations to ~/.config/Code snippet# Create config directories if they don't exist
+2. Copy Configurations to ~/.config (Create the config directories if they don't exist)
+   
 mkdir -p ~/.config ~/.local/state/noctalia
 
 # Link / Copy configuration folders
