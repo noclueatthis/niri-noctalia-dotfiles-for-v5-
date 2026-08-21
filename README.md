@@ -1,5 +1,5 @@
 ## Noctalia & Niri Dotfiles
-A clean, modern Wayland desktop setup using Niri and Noctalia Shell.
+A clean, modern wayland desktop setup using Niri and Noctalia Shell.
 
 
 
@@ -47,5 +47,5 @@ These configurations are completely **distribution-agnostic** and work on any Li
 * **Arch based distros** (Packages avaliable in AUR)
 * **Fedora / Bazzite** (Fully supported)
 * **Void Linux** (Natively supported via official repositories)
-* **NixOS** (Highly recommended)
+* **NixOS** (Highly recommended and personally used)
 
