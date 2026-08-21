@@ -1,14 +1,13 @@
-🛠️ Noctalia & Niri Dotfiles
+# Noctalia & Niri Dotfiles
 A clean, modern Wayland desktop setup using Niri and Noctalia Shell.
 
 
-
-🎨 ScreenshotsDesktopLockscreen  
-
+# Previews 
 
 
 
-📦 Required Applications & DependenciesMake sure you have these packages installed before applying the configuration:
+
+# Required Applications & Dependencies 
 Compositor & Shell: niri, noctalia-shell
 Terminal: kitty
 Shell & Fetch: fish, fastfetch
@@ -20,7 +19,7 @@ A Nerd Font (e.g., ttf-nerd-fonts-symbols or JetBrainsMono Nerd Font for icons)
 
 
 
-🚀 Installation Guide
+# Installation 
 1. Clone the Repository git clone https://github.com/noclueatthis/niri-noctalia-dotfiles-for-v5-git ~/dotfiles
 
 
