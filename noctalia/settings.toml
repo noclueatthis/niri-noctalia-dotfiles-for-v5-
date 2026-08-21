@@ -1,0 +1,307 @@
+config_version = 8
+
+[audio]
+enable_sounds = true
+notification_sound = ""
+volume_change_sound = ""
+
+[bar.default]
+background_opacity = 0.58999998681247234
+capsule = true
+capsule_opacity = 0.20999999530613422
+capsule_padding = 3.0
+capsule_thickness = 0.76999998651444912
+center = [ "active_window" ]
+end = [ "media", "clock", "input_volume", "output_volume", "network", "bluetooth", "battery", "session" ]
+margin_ends = 0
+panel_overlap = 0
+position = "left"
+radius_bottom_left = 0
+radius_top_left = 0
+start = [ "wallpaper", "workspaces" ]
+
+[control_center]
+hidden_tabs = [ "audio", "monitor", "power", "network", "bluetooth", "calendar", "notifications", "screen-time" ]
+show_shortcut_labels = false
+width = 1010
+
+[desktop_widgets]
+enabled = false
+schema_version = 2
+widget_order = [ "desktop-widget-0000000000000002" ]
+
+    [desktop_widgets.grid]
+    cell_size = 16
+    major_interval = 4
+    visible = true
+
+    [desktop_widgets.widget.desktop-widget-0000000000000002]
+    box_height = 224.0
+    box_width = 1968.0
+    cx = 960.0
+    cy = 972.0
+    rotation = 0.0
+    type = "audio_visualizer"
+
+        [desktop_widgets.widget.desktop-widget-0000000000000002.settings]
+        background = false
+        bands = 56
+        centered = false
+        mirrored = false
+        show_when_idle = false
+
+[idle]
+behavior_order = [ "lock", "lock-and-suspend", "screen-off" ]
+
+    [idle.behavior.lock]
+    action = "lock"
+    enabled = true
+    timeout = 300.0
+
+    [idle.behavior.lock-and-suspend]
+    action = "lock_and_suspend"
+    enabled = false
+    timeout = 900.0
+
+    [idle.behavior.screen-off]
+    action = "screen_off"
+    enabled = false
+    timeout = 660.0
+
+[location]
+address = ""
+
+[lockscreen]
+blurred_desktop = true
+
+[lockscreen_widgets]
+enabled = true
+schema_version = 2
+widget_order = [
+    "lockscreen-widget-0000000000000001",
+    "lockscreen-widget-0000000000000002",
+    "lockscreen-widget-0000000000000003",
+    "lockscreen-widget-0000000000000004",
+    "lockscreen-widget-0000000000000005",
+    "lockscreen-widget-0000000000000006",
+    "lockscreen-widget-0000000000000007",
+    "lockscreen-widget-0000000000000008",
+    "lockscreen-widget-0000000000000009",
+    "lockscreen-widget-000000000000000a",
+    "lockscreen-widget-000000000000000c"
+]
+
+    [lockscreen_widgets.grid]
+    cell_size = 16
+    major_interval = 4
+    visible = true
+
+    [lockscreen_widgets.widget.lockscreen-widget-0000000000000001]
+    box_height = 208.0
+    box_width = 208.0
+    cx = 473.0
+    cy = 756.0
+    rotation = 0.0
+    type = "media_player"
+
+    [lockscreen_widgets.widget.lockscreen-widget-0000000000000002]
+    box_height = 160.0
+    box_width = 208.0
+    cx = 473.0
+    cy = 556.0
+    rotation = 0.0
+    type = "label"
+
+        [lockscreen_widgets.widget.lockscreen-widget-0000000000000002.settings]
+        title = ""
+
+    [lockscreen_widgets.widget.lockscreen-widget-0000000000000003]
+    box_height = 176.0
+    box_width = 208.0
+    cx = 473.0
+    cy = 372.0
+    rotation = 0.0
+    type = "weather"
+
+    [lockscreen_widgets.widget.lockscreen-widget-0000000000000004]
+    box_height = 224.0
+    box_width = 704.0
+    cx = 944.0
+    cy = 652.0
+    rotation = 0.0
+    type = "sticker"
+
+        [lockscreen_widgets.widget.lockscreen-widget-0000000000000004.settings]
+        image_path = ""
+        opacity = 1.0
+
+    [lockscreen_widgets.widget.lockscreen-widget-0000000000000005]
+    box_height = 240.0
+    box_width = 688.0
+    cx = 942.0
+    cy = 404.0
+    rotation = 0.0
+    type = "clock"
+
+        [lockscreen_widgets.widget.lockscreen-widget-0000000000000005.settings]
+        font_family = "Unifont"
+
+    [lockscreen_widgets.widget.lockscreen-widget-0000000000000006]
+    box_height = 112.0
+    box_width = 128.0
+    cx = 1510.0
+    cy = 468.0
+    rotation = 0.0
+    type = "sysmon"
+
+        [lockscreen_widgets.widget.lockscreen-widget-0000000000000006.settings]
+        display = "gauge"
+        show_label = false
+        stat = "swap_pct"
+        stat2 = "cpu_temp"
+
+    [lockscreen_widgets.widget.lockscreen-widget-0000000000000007]
+    box_height = 112.0
+    box_width = 128.0
+    cx = 1510.0
+    cy = 340.0
+    rotation = 0.0
+    type = "sysmon"
+
+        [lockscreen_widgets.widget.lockscreen-widget-0000000000000007.settings]
+        display = "gauge"
+        show_label = false
+        stat = "gpu_temp"
+        stat2 = "cpu_temp"
+
+    [lockscreen_widgets.widget.lockscreen-widget-0000000000000008]
+    box_height = 112.0
+    box_width = 128.0
+    cx = 1368.5
+    cy = 468.0
+    rotation = 0.0
+    type = "sysmon"
+
+        [lockscreen_widgets.widget.lockscreen-widget-0000000000000008.settings]
+        display = "gauge"
+        show_label = false
+        stat = "ram_pct"
+        stat2 = "cpu_temp"
+
+    [lockscreen_widgets.widget.lockscreen-widget-0000000000000009]
+    box_height = 112.0
+    box_width = 128.0
+    cx = 1368.5
+    cy = 340.0
+    rotation = 0.0
+    type = "sysmon"
+
+        [lockscreen_widgets.widget.lockscreen-widget-0000000000000009.settings]
+        display = "gauge"
+        show_label = false
+        stat = "cpu_usage"
+        stat2 = "cpu_temp"
+
+    [lockscreen_widgets.widget.lockscreen-widget-000000000000000a]
+    box_height = 320.0
+    box_width = 256.0
+    cx = 1444.0
+    cy = 700.0
+    rotation = 0.0
+    type = "audio_visualizer"
+
+        [lockscreen_widgets.widget.lockscreen-widget-000000000000000a.settings]
+        bands = 32
+        centered = false
+        mirrored = false
+        show_when_idle = true
+
+    [lockscreen_widgets.widget.lockscreen-widget-000000000000000c]
+    box_height = 80.0
+    box_width = 1200.0
+    cx = 968.0
+    cy = 236.0
+    rotation = 0.0
+    type = "label"
+
+        [lockscreen_widgets.widget.lockscreen-widget-000000000000000c.settings]
+        title = ""
+
+[notification]
+position = "bottom_right"
+
+[osd]
+position = "bottom_right"
+position_vertical = "bottom_right"
+scale = 1.2500000111758709
+
+[plugin_settings."h465855hgg/lyrics"]
+display_mode = "track"
+lyrics_sources = [ "spotify", "lrclib", "netease", "splayer", "qqmusic", "kugou", "qishui", "apple_music", "musixmatch" ]
+
+[plugins]
+enabled = [ "dotnetrob/cat", "shin/lrc", "h465855hgg/lyrics" ]
+
+[shell]
+app_icon_color = "primary"
+app_icon_colorize = true
+avatar_path = ""
+font_family = "Lexend"
+password_style = "random"
+
+    [shell.animation]
+    speed = 0.55000000819563866
+
+    [shell.launcher]
+    categories = false
+
+        [shell.launcher.providers.session]
+        global = true
+
+    [shell.panel]
+    clipboard_position = "top_center"
+    control_center_placement = "floating"
+    control_center_position = "top_center"
+    launcher_position = "bottom_center"
+    session_placement = "floating"
+    session_position = "center_right"
+    transparency_mode = "glass"
+    wallpaper_placement = "floating"
+    wallpaper_position = "top_center"
+
+[system.monitor]
+cpu_temp_activity_threshold = 85
+cpu_temp_critical_threshold = 90
+cpu_usage_activity_threshold = 80
+gpu_temp_activity_threshold = 80
+gpu_usage_activity_threshold = 75
+gpu_vram_activity_threshold = 75
+ram_pct_activity_threshold = 70
+
+[theme]
+builtin = "Ayu"
+mode = "auto"
+source = "wallpaper"
+wallpaper_scheme = "m3-content"
+
+    [theme.templates]
+    builtin_ids = [ "btop", "cava", "gtk3", "gtk4", "hyprland", "kcolorscheme", "kitty", "niri" ]
+    community_ids = [ "discord", "neovim", "prismlauncher", "steam", "rofi", "fastfetch" ]
+
+[widget.battery]
+show_label = false
+
+[widget.input_volume]
+show_label = false
+
+[widget.network]
+show_label = false
+
+[widget.output_volume]
+show_label = false
+
+[widget.wallpaper]
+glyph = "terminal"
+
+[widget.workspaces]
+labels_only_when_occupied = true
