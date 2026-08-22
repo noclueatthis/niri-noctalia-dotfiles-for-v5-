@@ -14,11 +14,10 @@ A clean, modern wayland desktop setup using Niri and Noctalia Shell.
 * Compositor & Shell: `niri, noctalia-shell`
 * Terminal: `kitty`
 * Shell & Fetch: `fish, fastfetch`
-* System Monitors: `btop, cava`
+* System Monitors: cbtop, cava`
 * Fonts:`Lexend` (Primary UI Font) `Unifont` (Clock / Lockscreen Font) `Maple mono` (Terminal Font)
 * A Nerd Font (e.g., `ttf-nerd-fonts-symbols` or `JetBrainsMono Nerd` Font for icons)
-
-
+* Cursor  `FossaCursors`
 
 
 
